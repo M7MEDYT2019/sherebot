@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setActivity('Emerald Bot Shop', {type: 'WATCHING'});
+    client.user.setActivity('Life', {type: 'WATCHING'});
 });
 
 
